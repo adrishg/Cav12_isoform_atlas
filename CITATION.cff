@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "CaV1.2 Isoform Atlas"
+message: "If you use this resource, please cite it and the primary papers it indexes."
+type: dataset
+authors:
+  - given-names: Adriana
+    family-names: Hernandez Gonzalez
+    email: ahgonzalez@ucdavis.edu
+    affiliation: "University of California, Davis Health"
+repository-code: "https://github.com/adrishg/cav12-isoform-atlas"
+url: "https://adrishg.github.io/cav12-isoform-atlas/"
+abstract: >-
+  An evidence-tiered reference for CACNA1C / CaV1.2 alternative splicing across
+  human, rat and rabbit. Includes verified exon sequences from UniProt VAR_SEQ
+  records, a sequence-to-topology isoform checker, auxiliary subunit pairing,
+  a 3D structure viewer for AlphaFold models, tissue and transcript-level
+  expression, splicing regulation, and an indexed, filterable literature base.
+keywords:
+  - CACNA1C
+  - CaV1.2
+  - alternative splicing
+  - L-type calcium channel
+  - ion channel
+license: CC-BY-4.0
