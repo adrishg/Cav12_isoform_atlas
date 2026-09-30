@@ -7,8 +7,8 @@ authors:
     family-names: Hernandez Gonzalez
     email: ahgonzalez@ucdavis.edu
     affiliation: "University of California, Davis Health"
-repository-code: "https://github.com/adrishg/cav12-isoform-atlas"
-url: "https://adrishg.github.io/cav12-isoform-atlas/"
+repository-code: "https://github.com/adrishg/Cav12_isoform_atlas"
+url: "https://adrishg.github.io/Cav12_isoform_atlas/"
 abstract: >-
   An evidence-tiered reference for CACNA1C / CaV1.2 alternative splicing across
   human, rat and rabbit. Includes verified exon sequences from UniProt VAR_SEQ

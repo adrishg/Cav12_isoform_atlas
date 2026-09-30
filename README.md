@@ -2,7 +2,7 @@
 
 An evidence-tiered reference for **CACNA1C / CaV1.2** alternative splicing across human, rat and rabbit.
 
-**Live site:** https://adrishg.github.io/cav12-isoform-atlas/
+**Live site:** https://adrishg.github.io/Cav12_isoform_atlas/
 
 The whole atlas is a **single self-contained HTML file**. No build step, no framework, no server.
 
@@ -35,25 +35,26 @@ Every claim carries one:
 | **3** | Heterologous construct, or asserted without direct tissue evidence |
 | **Disputed** | Papers actively contradict each other; both sides are cited |
 
-## Publishing to GitHub Pages
+## Updating the site
 
-The repo is already initialised with an initial commit on `main`. To publish:
+The GitHub repo is `adrishg/Cav12_isoform_atlas`; the local folder is
+`~/Repositories/cav12-isoform-atlas`. The names differ, which is fine — the link
+between them is the `origin` remote.
 
-1. On GitHub, create a **new public repository** named `cav12-isoform-atlas`.
-   Do **not** add a README, .gitignore or licence — this repo already has them.
-2. Push:
+To publish a change, replace `index.html`, then:
 
-   ```bash
-   cd ~/Repositories/cav12-isoform-atlas
-   git remote add origin git@github.com:adrishg/cav12-isoform-atlas.git
-   git push -u origin main
-   ```
+```bash
+cd ~/Repositories/cav12-isoform-atlas
+git add index.html
+git commit -m "describe the change"
+git push
+```
 
-3. **Settings → Pages** → *Build and deployment* → Source: **Deploy from a branch**,
-   Branch: **`main`**, folder: **`/ (root)`**. Save.
-4. Wait about a minute. The site appears at https://adrishg.github.io/cav12-isoform-atlas/
+GitHub Pages rebuilds in about a minute.
 
-To update later, replace `index.html`, then commit and push.
+If Pages is not yet serving, turn it on once: **Settings → Pages** →
+*Build and deployment* → Source: **Deploy from a branch**, Branch: **`main`**,
+folder: **`/ (root)`** → Save.
 
 ## Notes and privacy
 
